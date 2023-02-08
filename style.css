@@ -42,6 +42,14 @@ header{
     box-shadow: 0 0 5px black;
 }
 
+footer{
+    display: flex;
+    position: relative;
+    margin-top: 70px;
+    padding: 0;
+    background-color: black;
+}
+
 /*NAVBAR*/
 
 .navbar{
@@ -96,7 +104,7 @@ header{
 
 .column{
     flex:1;
-    text-align: center;
+    
 }
 
 .card{
@@ -113,11 +121,53 @@ header{
 .discount, .sustainability{
     padding: 5px 10px;
     position: absolute;
-    bottom: 60px;
+    bottom: 80px;
     left:0;
     color: white;
 }
 
 .sustainability{
     margin-left: 60px;
+}
+
+.img-description{
+    position: relative;
+}
+
+.brand{
+    font-size: 15px;
+}
+
+.discount-price{
+    color: red;
+}
+
+.real-price{
+    text-decoration: line-through;
+}
+
+.name-product{
+    font-weight: bold;
+}
+
+/*FOOTER*/
+
+.footer-info{
+    height: 80px;
+    flex-basis: 100%;
+    display: flex;
+    color: white;
+}
+
+.footer-text{
+    display: flex;
+    flex-basis: 100%;
+    gap: 10px;
+}
+
+.social{
+    height: 100px;
+    flex-basis: 50%;
+    padding: 15px 0;
+    text-align: right;
 }
