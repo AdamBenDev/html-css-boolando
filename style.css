@@ -42,7 +42,7 @@ header{
     box-shadow: 0 0 5px black;
 }
 
-
+/*NAVBAR*/
 
 .navbar{
     height: 80px;
@@ -74,7 +74,36 @@ header{
     cursor: pointer;
 }
 
-.navbar-gender li:hover{
+.navbar-selection li:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+/*MAIN*/
+
+.red-bg{
+    background-color: red;
+}
+
+.green-bg{
+    background-color: green;
+}
+
+.row{
+    display: flex;
+    gap:30px;
+}
+
+.column{
+    flex-basis: calc(100% / 3);
+    min-height: 400px;
+}
+
+.card{
+    position:relative;
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
 }
