@@ -81,18 +81,17 @@ header{
 
 /*MAIN*/
 
-.red-bg{
+.bg-red{
     background-color: red;
 }
 
-.green-bg{
+.bg-green{
     background-color: green;
 }
 
 .row{
     display: flex;
     gap:30px;
-    flex-direction: column;
 }
 
 .column{
@@ -101,9 +100,9 @@ header{
 }
 
 .card{
-    position:relative;
     cursor: pointer;
-    margin:16px
+    margin:16px;
+    position: relative;
 }
 
 .card > img{
@@ -111,6 +110,14 @@ header{
 }
 
 
-.sostenibility .discount{
+.discount, .sustainability{
     padding: 5px 10px;
+    position: absolute;
+    bottom: 60px;
+    left:0;
+    color: white;
+}
+
+.sustainability{
+    margin-left: 60px;
 }
