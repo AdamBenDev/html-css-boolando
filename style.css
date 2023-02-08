@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*ELEMENTI BASE*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 110px;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+
+}
+
+li{
+    padding: 5px;
+    text-decoration: none;
+}
+
+header{
+    background-color: orange;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    box-shadow: 0 0 5px black;
+}
+
+
+
+.navbar{
+    height: 80px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > *{
+    flex-basis:20%;
+}
+
+.navbar-logo{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar-logo > img{
+    height: 20px;
+    cursor: pointer;
+}
+
+.navbar-icons > ul{
+    justify-content: flex-end;
+}
+
+.navbar-icons i{
+    cursor: pointer;
+}
+
+.navbar-gender li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
