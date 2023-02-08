@@ -29,7 +29,7 @@ li{
 }
 
 header{
-    background-color: orange;
+    background-color: #ff6900;
     color: white;
     height: 80px;
     display: flex;
@@ -47,7 +47,7 @@ footer{
     position: relative;
     margin-top: 70px;
     padding: 0;
-    background-color: black;
+    background-color: #1a1a1a;
 }
 
 /*NAVBAR*/
@@ -160,9 +160,9 @@ footer{
 }
 
 .footer-text{
-    display: flex;
-    flex-basis: 100%;
-    gap: 10px;
+    height: 100px;
+    flex-basis: 50%;
+    padding: 10px 0;
 }
 
 .social{
@@ -170,4 +170,11 @@ footer{
     flex-basis: 50%;
     padding: 15px 0;
     text-align: right;
+}
+
+.social-icons{
+    font-size: 25px;
+    padding: 5px;
+    padding-right: 0;
+    cursor: pointer;
 }
